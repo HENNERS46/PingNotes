@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<h2>Ping Notes</h2>
+
+<input type="text" id="myInput" oninput="myFunction()" onkeydown="createBubble(event)">
+<div class="buttonContainer">
+<button onclick="restoreOrder()">Restore</button>
+<button onclick="sortByColor('green')">Beginning</button>
+<button onclick="sortByColor('yellow')">Middle</button>
+<button onclick="sortByColor('purple')">End</button>
+<button onclick="sortByColor('blue')">Protagonist</button>
+<button onclick="sortByColor('red')">Antagonist</button>
+<button onclick="sortByColor('pink')">Backstory</button>
+<button onclick="sortByColor('grey')">Stray</button>
+<button onclick="sortByColor('brown')">Character</button>
+<button onclick="sortByColor('lightgreen')">Element</button>
+<button onclick="sortByColor('stripey')">World</button>
+</div>
+<div id="bubbleContainer"></div>
+
+
+
+</body>
+</html>

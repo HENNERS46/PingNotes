@@ -1,0 +1,86 @@
+
+input[type=text] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.stripey {
+    background-image: linear-gradient(to right, green, blue);
+}
+
+.bubble {
+    position: relative;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0; /* Add margin to the top and bottom */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#bubbleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /* Add padding */
+}
+
+.bubble button {
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 0px;
+}
+
+.bubble button:hover {
+  background-color: darkred;
+}
+
